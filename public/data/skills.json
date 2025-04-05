@@ -1,0 +1,70 @@
+[
+    {
+      "name":"JAVA",
+      "icon":"FaJava",
+      "color":"#f89820"
+    },
+    {
+        "name": "HTML5",
+        "icon": "FaHtml5",
+        "color": "#e34c26"
+      },
+      {
+        "name": "CSS3",
+        "icon": "FaCss3Alt",
+        "color": "#264de4"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "FaJs",
+        "color": "#f0db4f"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact",
+        "color": "#61dafb"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs",
+        "color": "#68a063"
+      },
+      {
+        "name": "Express.js",
+        "icon": "SiExpress",
+        "color": "#68a063"
+      },
+      {
+        "name": "MongoDb",
+        "icon": "BiLogoMongodb",
+        "color": "#3FA037"
+      },
+      {
+        "name": "Database",
+        "icon": "FaDatabase",
+        "color": "#00758f"
+      }
+      ,
+      {
+        "name": "Git",
+        "icon": "FaGitAlt",
+        "color": "#f1502f"
+      }
+      ,
+      {
+        "name": "GiHub",
+        "icon": "FaGithub",
+        "color": "#fff"
+      }
+      ,
+      {
+        "name": "Android",
+        "icon": "SiAndroidstudio",
+        "color": "#1F99D0"
+      },
+      {
+        "name":"Linux",
+        "icon":"FaLinux",
+        "color":"E95420"
+      }
+]

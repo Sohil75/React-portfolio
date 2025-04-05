@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "title": "UrbanGent: Full-Featured E-Commerce Web Application",
+      "description": "UrbanGent is a full-featured e-commerce web app built using React, Redux, Express, MongoDB, and Node.js, with API calls and Razorpay for secure payments. It includes user authentication, an admin panel, order management, and address handling during checkout. Bootstrap and Tailwind CSS were used for a responsive and visually appealing design.",
+      "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1742306714/dsk_cw6scn.avif",
+      "link": "https://magenta-gumdrop-935dcd.netlify.app/"
+    },
+    {
+      "id": 2,
+      "title": "UserInfo Manager - A Desktop App for Efficient User Data Management",
+      "description": " A desktop application built using Java, Java Swing, and SQLite to efficiently manage user information. It enables seamless CRUD operations, including adding, updating, searching, and deleting user records while ensuring data integrity through validation and error handling",
+      "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743266259/3076404_rb3ux5.png",
+      "link": "https://github.com/Sohil75/UserInfo-Manager"
+    },
+    {
+      "id": 3,
+      "title": "EncryptEase - A Secure Data Encryption & Decryption App",
+      "description": "EncryptEase is a desktop application built using Java, Java Swing, and the AES algorithm to securely encrypt and decrypt user-entered data. It ensures data confidentiality by allowing users to protect sensitive information with strong encryption techniques.",
+      "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743268079/encrp_gz4jrm.jpg",
+      "link": "https://github.com/Sohil75/EncryptEase"
+    },
+    {
+      "id": 4,
+      "title": "ShopCart – A Dynamic Online Shopping Cart Application",
+      "description": "ShopCart is an online shopping cart feature built using JavaScript, HTML, and CSS that allows users to add dishes to their cart, view selected items, and calculate the total bill dynamically. It enhances the shopping experience by providing seamless product management and real-time price updates.",
+      "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743267440/11010851_yxjpm9.png",
+      "link": "https://shop-cart-app.onrender.com "
+    },
+    {
+      "id": 5,
+      "title": "FolderCreate – An Automated Folder Creation App",
+      "description": "FolderCreate is a desktop application developed using Java that automates the process of creating multiple folders based on user-defined inputs. It streamlines folder organization by enabling quick and error-free folder generation.",
+      "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743269141/folder_mzjyml.webp",
+      "link": "https://github.com/Sohil75/FolderCreater"
+    }
+  ]

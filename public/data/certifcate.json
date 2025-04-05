@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286154/Screenshot_8_q1j3af.png",
+        "title": "Full Stack Development",
+        "platform": "UpGrad",
+        "date": "Sept 2024",
+        "link": "https://drive.google.com/file/d/1heUsCVpH5FugGDfbQpt_v_PcNYYNaGZE/view?usp=drive_link"
+    },
+    {
+        "id": 2,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286156/Screenshot_10_r5fvap.png",
+        "title": "Java Fundamentals",
+        "platform": "Udemy",
+        "date": "Feb 2024",
+        "link": "https://drive.google.com/file/d/1_LRwVuupwNWPmPygQ4zIdW7PpARNZTiS/view?usp=drive_link"
+    },
+    {
+        "id": 3,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286156/Screenshot_9_z1gbl9.png",
+        "title": "Software Engineering And Agile Software Develpoment",
+        "platform": "Infosys Springboard",
+        "date": "Feb 2024",
+        "link": "https://drive.google.com/file/d/1f7jwY2s7XaoIMMOONZlho71SP9-07Sk9/view?usp=drive_link"
+    },
+    {
+        "id": 4,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286154/Screenshot_13_ifbkbk.png",
+        "title": "JavaScript",
+        "platform": "Udemy",
+        "date": "May 2023",
+        "link": "https://drive.google.com/file/d/1wQ0XCd-MDZCZsFIWXTK9NqEejolJf48H/view?usp=drive_link"
+    },
+    {
+        "id": 5,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286154/Screenshot_11_t9csnn.png",
+        "title": "SQL",
+        "platform": "Udemy",
+        "date": "Sept 2024",
+        "link": "https://drive.google.com/file/d/10PimBtDOu6jQm3AfGvuDeUFqt5_-zcvJ/view?usp=drive_link"
+    },
+    {
+        "id": 6,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286155/Screenshot_12_lfkt3i.png",
+        "title": "CSS Basic",
+        "platform": "Udemy",
+        "date": "Dec 2022",
+        "link": "#"
+    }
+
+]

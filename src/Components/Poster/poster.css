@@ -1,0 +1,271 @@
+.poster{
+    min-height: 100vh;
+    scroll-margin-top:80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:8% 5% 5% 10%;
+    background: url(../../Images/bhj.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.poster-container{
+    color: aliceblue;
+   margin-bottom: 50px;
+   max-width: 600px;
+}
+.headerText{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.greet{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.slang{
+    text-align: justify;
+    font-size: 20px;
+}
+.headerText h1{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.headerText h1 span{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+.headerText h1 span::before,.headerText h1 span::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #7c2bb6fe, #21019f);
+    transition: width 0.4s ease-in-out;
+   
+}
+.headerText h1 span::before{
+    top: 0;
+    left: 0;
+}
+.headerText h1 span::after{
+    bottom: 0;
+    right: 0;
+}
+.headerText h1 span:hover::before{
+    width: 100%;
+}
+.headerText h1 span:hover::after{
+    width: 100%;
+}
+.headerText h1 span:hover{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: font-size 0.4s ease-in-out, letter-spacing 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    background: linear-gradient(90deg, rgb(114, 132, 232) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.4s ease-in-out; 
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+/* .github-link {
+    margin-right: 70%;
+} */
+
+.github-link a {
+    color: white;
+    background: linear-gradient(45deg, rgb(55, 63, 146), rgb(120, 63, 220));
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+/* Gradient Animation */
+.github-link a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(89, 36, 181), rgb(10, 18, 101));
+    transition: left 0.4s ease-in-out;
+    z-index: -1;
+}
+
+/* Hover Effects */
+.github-link a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.github-link a:hover::before {
+    left: 0;
+}
+/* social icons */
+.social-icon{
+   margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.social-icon ul{
+    display: flex;
+   gap: 10px;
+   position: relative;
+   left: 0%;
+    transform: translate(-50%);
+    padding: 0;
+}
+.social-icon ul li{
+    list-style: none;
+    display: flex;
+}
+.social-icon ul li a{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+    transition:all 0.3s ease-in-out;
+}
+.social-icon ul li a .icon{
+    position: relative;
+    color: #6b1fbd;
+    transition: 0.5s;
+    z-index: 3;
+}
+.social-icon ul li a:hover .icon{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+.social-icon ul li a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 2;
+}
+.social-icon ul li a:hover:before{
+    top: 0;
+}
+.social-icon ul li:nth-child(1) a:before{
+    background: linear-gradient(45deg, rgb(36, 41, 46), rgb(0, 0, 0));
+}
+.social-icon ul li:nth-child(2) a:before{
+    background: linear-gradient(45deg, rgb(10, 102, 194), rgb(0, 75, 141));
+}
+.social-icon ul li:nth-child(3) a:before{
+    background: linear-gradient(45deg, rgb(0, 0, 0), rgb(30, 30, 30));
+}
+.social-icon ul li:nth-child(4) a:before{
+    background: linear-gradient(45deg, rgb(255, 204, 0), 
+    rgb(255, 89, 89), 
+    rgb(170, 0, 255), 
+    rgb(64, 93, 230));
+}
+
+.fade-section{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.fade-section.fade-in{
+    opacity: 1;
+}
+
+
+@media(max-width:768px){
+    .poster{
+        padding: 15% 5%;
+        background-attachment: scroll;
+    }
+    .poster-container{
+        max-width: 100%;
+        text-align: center;
+    }
+    .headerText{
+        text-align: center;
+    }
+    .headerText h1{
+        font-size: 2rem;
+    }
+    .greet{
+        font-size: 0.85rem;
+        margin: 0 10px;
+    }
+    .social-icon{
+        gap: 8px;
+        margin-left: 200px;
+    }
+    .social-icon ul li a{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+        margin: 0 4px;
+    }
+}
+@media (max-width: 480px) {
+    .poster {
+      padding: 20% 5%;
+    }
+  
+    .headerText h1 {
+      font-size: 1.8rem;
+    }
+  
+    .greet {
+      font-size: 0.9rem;
+    }
+  
+    .slang {
+      font-size: 0.8rem;
+    }
+  .social-icon{
+    gap: 6px;
+  }
+    .social-icon ul li a {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+      line-height: 35px;
+      margin: 0 3px;
+    }
+  }

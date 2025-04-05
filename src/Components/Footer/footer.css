@@ -1,0 +1,30 @@
+.footer-section{
+    max-height: 50px;
+}
+.footer-area{
+    display: flex;
+    flex-basis: 2;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rebeccapurple;
+}
+.logo-text {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.logo-text span{
+    color: white;
+   margin-left: 10px;
+}
+.logo-text span:hover{
+    color: rgb(121, 63, 220);
+}
+.fade-in{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+

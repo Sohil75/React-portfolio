@@ -1,0 +1,235 @@
+.certificate-container{
+    padding: 5rem 20px;
+   max-width: 1200px;
+    margin: 0 auto;
+}
+.certificate-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.certificates-slider{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    overflow-x:auto ;
+    padding: 20px;
+    align-items: center;
+    scroll-behavior: smooth;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+}
+.certificate-card{
+    perspective: 1000px;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    cursor: pointer;
+}
+.card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    transform: rotateX(20deg) rotateY(-10deg);
+    box-shadow: 0 10px 20px rgba(120, 63, 220, 0.5);
+}
+.certificate-card:hover .card-inner{
+    transform: rotateX(0deg) rotateY(0deg);
+    box-shadow: 0 15px 30px rgba(120, 63, 220, 0.7);
+}
+.card-inner img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+.card-content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    background: white;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.card-content h3{
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 600;
+}
+.card-content p{
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+.card-content a{
+    display: inline-block;
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s ease, transform 0.3s ease-in-out;
+}
+.card-content a:hover{
+    color: #0e218b;
+    transform: scale(1.1);
+}
+.certificates-slider::-webkit-scrollbar{
+    height: 8px;
+}
+.certificates-slider::-webkit-scrollbar-track{
+    background: black;
+}
+.certificates-slider::-webkit-scrollbar-thumb{
+    background: blueviolet;
+    border-radius: 4px;
+}
+.certificates-slider::-webkit-scrollbar-thumb:hover{
+    background: #ff9f43;
+}
+
+@media (max-width:1024px) {
+    .certificate-container{
+        max-width: 100%;
+        padding: 2rem 0.5rem;
+    }
+    .certificate-title{
+        font-size: 2rem;
+    }
+    .certificate-card{
+        width: 300px;
+        height: 350px;
+    }
+    .card-inner{
+        height: 90%;
+        
+    }
+    .card-inner img{
+        object-fit: fill;
+    }
+    .card-content{
+        padding: 0rem;
+    }
+    .card-content h3 {
+        font-size: 0.1rem;
+        margin: 0;
+      }
+    
+      .card-content p 
+      {
+        margin: 0;
+        font-size: 0.70rem;
+      }
+
+      .card-content a {
+        font-size: 0.85rem;
+      }
+}
+@media (max-width: 768px) {
+    .certificate-title{
+        font-size: 1.8rem;   
+    }
+    .certificates-slider {
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+    .certificate-card {
+      width: 260px;
+      height: 320px;
+    }
+    .card-inner {
+        transform: rotateX(10deg) rotateY(-5deg); /* Reduced for mobile */
+        box-shadow: 0 6px 12px rgba(120, 63, 220, 0.4);
+      }
+      .card-inner:hover {
+        box-shadow: 0 10px 20px rgba(120, 63, 220, 0.6);
+      }
+    .card-content h3 {
+      font-size: 0.95rem;
+
+    }
+    
+    .card-content p {
+      font-size: 0.8rem;
+    }
+    .card-content a{
+        font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .certificate-container {
+      padding: 1.5rem 0.5rem;
+    }
+  
+    .certificate-title {
+      font-size: 1.6rem;
+    }
+  
+    .certificate-card {
+      width: 220px;
+      height: 280px;
+    }
+  
+    .card-inner img {
+      height: 60%;
+    }
+  
+    .card-content {
+      height: 40%;
+      padding: 0.6rem;
+    }
+  
+    .card-content h3 {
+      font-size: 0.9rem;
+    }
+  
+    .card-content p {
+      font-size: 0.75rem;
+    }
+  
+    .card-content a {
+      font-size: 0.75rem;
+    }
+  
+    .certificates-slider::-webkit-scrollbar {
+      height: 6px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .certificate-title {
+      font-size: 1.4rem;
+    }
+  
+    .certificate-card {
+      width: 200px;
+      height: 260px;
+    }
+    .card-content{
+    }
+    .card-inner {
+      transform: rotateX(5deg) rotateY(-3deg);
+    }
+  
+    .card-content h3 {
+      font-size: 0.85rem;
+    }
+  
+    .card-content p {
+      font-size: 0.7rem;
+    }
+  
+    .card-content a {
+      font-size: 0.7rem;
+    }
+  }
