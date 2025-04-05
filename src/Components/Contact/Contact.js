@@ -5,33 +5,20 @@ import { CiPhone } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 
 export default function Contact() {
-    const [formData,setFormData]= useState({
-        name:"",
-        email:"",
-        message:"",
-    });
-    const handleChange =(e)=>{
-        setFormData({...formData,[e.target.name]:e.target.value});
-    };
-    const handleSubmit =(e)=>{
-        e.preventDefault();
-        alert("Form submitted! Check your netlify dashboard");
-        setFormData({name:"",email:"",message:""});
-    }
+   
   return (
     <section className="contact-section" id="contact">
         <h1 className='contact-title'>Contact</h1>
         <p className='sub-heading'>Hey there, feel free to say hello!</p>
         <div className="contact-details">
             <form name='contact'
-            method='POST'
-            data-netlify ="true"
-            onSubmit={handleSubmit}>
+             action='https://formsubmit.co/mdsohil1802@gmail.com'
+            method='POST'}>
             <div className="contact-form">
-                <input name="name" value={formData.name} onChange={handleChange} type='text' placeholder='Name' required>
+                <input name="name" type='text' placeholder='Name' required>
                 </input>
-                <input name="email" id="email" type='email' value={formData.email} onChange={handleChange} placeholder='Email' required></input>
-                <textarea name="message" id="message" cols="70" rows="10" placeholder='Message' value={formData.message} onChange={handleChange}></textarea>
+                <input name="email" id="email" type='email' placeholder='Email' required></input>
+                <textarea name="message" id="message" cols="70" rows="10" placeholder='Message' ></textarea>
                 <button type="submit" className='send-btn'>Send</button>
                 
             </div>
