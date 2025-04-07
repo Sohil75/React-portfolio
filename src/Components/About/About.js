@@ -1,7 +1,7 @@
 import React from "react";
 import profilepic from "../../Images/profile.jpg";
 import "./about.css";
-import MdResume from "../../Images/MdResume.pdf";
+import MDSOHILRESUME from "../../Images/MDSOHILRESUME.pdf";
 export default function About() {
   return (
     <section id="about">
@@ -40,7 +40,7 @@ export default function About() {
           connect! 🚀{" "}
         </p>
         <div className="buttons">
-        <a href={MdResume} download>RESUME</a>
+        <a href={MDSOHILRESUME} download>RESUME</a>
         </div>
       </div>
     </div>
