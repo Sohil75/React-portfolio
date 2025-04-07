@@ -1,7 +1,7 @@
 import React from "react";
 import profilepic from "../../Images/profile.jpg";
 import "./about.css";
-
+import MdResume from "../../Images/MdResume.pdf";
 export default function About() {
   return (
     <section id="about">

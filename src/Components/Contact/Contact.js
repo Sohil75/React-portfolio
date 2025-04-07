@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact-details">
             <form name='contact'
              action='https://formsubmit.co/mdsohil1802@gmail.com'
-            method='POST'}>
+            method='POST'>
             <div className="contact-form">
                 <input name="name" type='text' placeholder='Name' required>
                 </input>
