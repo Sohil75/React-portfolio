@@ -31,7 +31,7 @@ export default function Project() {
                                 <div className='project-image'>
                                     <img src={project.image} alt={project.title} />
                                     <div className="overlay">
-                                    <a href="/" className='link-wrapper'><PiLinkSimpleLight className='link-icon'/></a>
+                                    <a href={project.link} className='link-wrapper'><PiLinkSimpleLight className='link-icon'/></a>
                                     </div> 
                                 </div>
                                 <div className='project-content'>

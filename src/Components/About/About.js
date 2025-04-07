@@ -40,7 +40,7 @@ export default function About() {
           connect! 🚀{" "}
         </p>
         <div className="buttons">
-          <a href="/">RESUME</a>
+        <a href={MdResume} download>RESUME</a>
         </div>
       </div>
     </div>
