@@ -15,7 +15,8 @@ import {
   FaGitAlt,
   FaDatabase,
   FaJava,
-  FaLinux 
+  FaLinux ,
+    FaAws 
 } from "react-icons/fa";
 import { SiExpress ,SiAndroidstudio  } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -56,7 +57,8 @@ export default function Services() {
   BiLogoMongodb :BiLogoMongodb,
   FaGithub :FaGithub ,
   SiAndroidstudio :SiAndroidstudio,
-  FaLinux:FaLinux
+  FaLinux:FaLinux,
+        FaAws :FaAws 
     };
   return (
     <section className='Services-section' id='services'>
