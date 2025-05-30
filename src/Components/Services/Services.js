@@ -5,7 +5,7 @@ import { PiDesktopTowerDuotone } from "react-icons/pi";
 import { BsAndroid2 } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
-
+import { FaAws } from "react-icons/fa";
 import {
     FaHtml5,
     FaCss3Alt,
@@ -16,7 +16,6 @@ import {
   FaDatabase,
   FaJava,
   FaLinux ,
-    FaAws 
 } from "react-icons/fa";
 import { SiExpress ,SiAndroidstudio  } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -58,7 +57,7 @@ export default function Services() {
   FaGithub :FaGithub ,
   SiAndroidstudio :SiAndroidstudio,
   FaLinux:FaLinux,
-        FaAws :FaAws 
+ FaAws :FaAws 
     };
   return (
     <section className='Services-section' id='services'>
