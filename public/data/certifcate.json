@@ -46,6 +46,14 @@
         "platform": "Udemy",
         "date": "Dec 2022",
         "link": "#"
+    },
+     {
+        "id": 7,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1748609692/awscertificate_j3gi7b.png",
+        "title": "AWS Certificate",
+        "platform": "Scaler",
+        "date": "May 2025",
+        "link": "https://drive.google.com/file/d/10mHR_jglQxzYkzVOH1iB1V2ClBPgJEJ-/view?usp=drive_link"
     }
 
 ]
