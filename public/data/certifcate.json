@@ -7,8 +7,24 @@
         "date": "Sept 2024",
         "link": "https://drive.google.com/file/d/1heUsCVpH5FugGDfbQpt_v_PcNYYNaGZE/view?usp=drive_link"
     },
-    {
+     {
         "id": 2,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1748609692/awscertificate_j3gi7b.png",
+        "title": "AWS",
+        "platform": "Scaler",
+        "date": "May 2025",
+        "link": "https://drive.google.com/file/d/10mHR_jglQxzYkzVOH1iB1V2ClBPgJEJ-/view?usp=drive_link"
+    },
+     {
+        "id": 3,
+        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1748610857/Screenshot_24_ddm4ox.png",
+        "title": "SQL",
+        "platform": "UpGrad",
+        "date": "April 2025",
+        "link": "https://drive.google.com/file/d/1GvogTwTz3HopPbmN3kNfl53llledbFjc/view?usp=drive_link"
+    }
+    {
+        "id": 4,
         "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286156/Screenshot_10_r5fvap.png",
         "title": "Java Fundamentals",
         "platform": "Udemy",
@@ -16,7 +32,7 @@
         "link": "https://drive.google.com/file/d/1_LRwVuupwNWPmPygQ4zIdW7PpARNZTiS/view?usp=drive_link"
     },
     {
-        "id": 3,
+        "id": 5,
         "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286156/Screenshot_9_z1gbl9.png",
         "title": "Software Engineering And Agile Software Develpoment",
         "platform": "Infosys Springboard",
@@ -24,7 +40,7 @@
         "link": "https://drive.google.com/file/d/1f7jwY2s7XaoIMMOONZlho71SP9-07Sk9/view?usp=drive_link"
     },
     {
-        "id": 4,
+        "id": 6,
         "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286154/Screenshot_13_ifbkbk.png",
         "title": "JavaScript",
         "platform": "Udemy",
@@ -32,7 +48,7 @@
         "link": "https://drive.google.com/file/d/1wQ0XCd-MDZCZsFIWXTK9NqEejolJf48H/view?usp=drive_link"
     },
     {
-        "id": 5,
+        "id": 7,
         "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286154/Screenshot_11_t9csnn.png",
         "title": "SQL",
         "platform": "Udemy",
@@ -40,20 +56,13 @@
         "link": "https://drive.google.com/file/d/10PimBtDOu6jQm3AfGvuDeUFqt5_-zcvJ/view?usp=drive_link"
     },
     {
-        "id": 6,
+        "id": 8,
         "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743286155/Screenshot_12_lfkt3i.png",
         "title": "CSS Basic",
         "platform": "Udemy",
         "date": "Dec 2022",
         "link": "#"
-    },
-     {
-        "id": 7,
-        "src": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1748609692/awscertificate_j3gi7b.png",
-        "title": "AWS Certificate",
-        "platform": "Scaler",
-        "date": "May 2025",
-        "link": "https://drive.google.com/file/d/10mHR_jglQxzYkzVOH1iB1V2ClBPgJEJ-/view?usp=drive_link"
     }
+   
 
 ]
