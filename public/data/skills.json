@@ -70,6 +70,6 @@
     {
         "name":"AWS",
         "icon":"FaAws",
-        "color":#FF9900"
+        "color":"#ff9900"
     }
 ]
