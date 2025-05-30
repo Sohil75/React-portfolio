@@ -65,6 +65,11 @@
       {
         "name":"Linux",
         "icon":"FaLinux",
-        "color":"E95420"
-      }
+        "color":"#E95420"
+      },
+    {
+        "name":"AWS",
+        "icon":"FaAws",
+        "color":#FF9900"
+    }
 ]
