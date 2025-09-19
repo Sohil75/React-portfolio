@@ -1,4 +1,5 @@
 [
+  
   {
       "id": 1,
       "title": "InvoicePro: Smart Invoice Management System",
@@ -13,29 +14,36 @@
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1742306714/dsk_cw6scn.avif",
       "link": "https://magenta-gumdrop-935dcd.netlify.app/"
     },
+  {
+  "id": 3,
+  "title": "FraudGuard Dashboard: AI-Assisted Credit Card Fraud Detection",
+  "description": "FraudGuard Dashboard is a full-stack AI-assisted credit card fraud detection application built with React, Node.js/Express, and MongoDB. It leverages a custom AI-powered model to analyze credit card transactions in real time, generating fraud risk scores, confidence levels, and detailed reasons. The app features secure user authentication, a transaction history dashboard with filtering options, and theme switching (dark/light mode) for a personalized experience. Fully responsive for desktop and mobile, it was developed using AI coding tools like GitHub Copilot, Cursor AI, and Blackbox AI for scaffolding and suggestions, with manual debugging, integration, and optimization for production readiness.",
+  "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1758308895/card_knpvoz.png",
+  "link": "https://resplendent-tiramisu-ddc375.netlify.app/landing"
+}
     {
-      "id": 3,
+      "id": 4,
       "title": "UserInfo Manager - A Desktop App for Efficient User Data Management",
       "description": " A desktop application built using Java, Java Swing, and SQLite to efficiently manage user information. It enables seamless CRUD operations, including adding, updating, searching, and deleting user records while ensuring data integrity through validation and error handling",
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743266259/3076404_rb3ux5.png",
       "link": "https://github.com/Sohil75/UserInfo-Manager"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "EncryptEase - A Secure Data Encryption & Decryption App",
       "description": "EncryptEase is a desktop application built using Java, Java Swing, and the AES algorithm to securely encrypt and decrypt user-entered data. It ensures data confidentiality by allowing users to protect sensitive information with strong encryption techniques.",
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743268079/encrp_gz4jrm.jpg",
       "link": "https://github.com/Sohil75/EncryptEase"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "ShopCart – A Dynamic Online Shopping Cart Application",
       "description": "ShopCart is an online shopping cart feature built using JavaScript, HTML, and CSS that allows users to add dishes to their cart, view selected items, and calculate the total bill dynamically. It enhances the shopping experience by providing seamless product management and real-time price updates.",
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743267440/11010851_yxjpm9.png",
       "link": "https://shop-cart-app.onrender.com "
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "FolderCreate – An Automated Folder Creation App",
       "description": "FolderCreate is a desktop application developed using Java that automates the process of creating multiple folders based on user-defined inputs. It streamlines folder organization by enabling quick and error-free folder generation.",
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1743269141/folder_mzjyml.webp",
