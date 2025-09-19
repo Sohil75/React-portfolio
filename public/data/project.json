@@ -20,7 +20,7 @@
   "description": "FraudGuard Dashboard is a full-stack AI-assisted credit card fraud detection application built with React, Node.js/Express, and MongoDB. It leverages a custom AI-powered model to analyze credit card transactions in real time, generating fraud risk scores, confidence levels, and detailed reasons. The app features secure user authentication, a transaction history dashboard with filtering options, and theme switching (dark/light mode) for a personalized experience. Fully responsive for desktop and mobile, it was developed using AI coding tools like GitHub Copilot, Cursor AI, and Blackbox AI for scaffolding and suggestions, with manual debugging, integration, and optimization for production readiness.",
   "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1758308895/card_knpvoz.png",
   "link": "https://resplendent-tiramisu-ddc375.netlify.app/landing"
-}
+},
     {
       "id": 4,
       "title": "UserInfo Manager - A Desktop App for Efficient User Data Management",
