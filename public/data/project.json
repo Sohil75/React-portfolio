@@ -5,7 +5,7 @@
       "title": "InvoicePro: Smart Invoice Management System",
       "description": "InvoicePro is a full-stack invoice management application built with the MERN stack (MongoDB, Express, React, Node.js). It enables users to create, preview, and download professional invoices as PDFs. The app features user authentication, client management, status tracking (Paid/Unpaid/Overdue), and a dynamic dashboard with charts for revenue insights. It is fully responsive and optimized for both desktop and mobile experiences.",
       "image": "https://res.cloudinary.com/ddzrwfbnl/image/upload/v1751143804/invoice_1_nbipvv.png",
-      "link": "https://invoicepros.netlify.app/"
+      "link": "https://invoicemern.netlify.app/"
     },
     {
       "id": 2,
