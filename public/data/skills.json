@@ -76,25 +76,25 @@
     "name": "Manual Testing",
     "icon": "FaBug",
     "color": "#e5533d"
-},
-{
-    "name": "Selenium",
-    "icon": "SiSelenium",
-    "color": "#43B02A"
-},
-{
-    "name": "Test Automation",
-    "icon": "FaVial",
-    "color": "#6f42c1"
-},
-{
-    "name": "Software Testing",
-    "icon": "MdBugReport",
-    "color": "#ff4d4f"
-},
-{
-    "name": "Test Case Design",
-    "icon": "FaClipboardCheck",
-    "color": "#17a2b8"
-}
-]
+    },
+    {
+        "name": "Selenium",
+        "icon": "SiSelenium",
+        "color": "#43B02A"
+    },
+    {
+        "name": "Test Automation",
+        "icon": "FaVialVirus",
+        "color": "#6f42c1"
+    },
+    {
+        "name": "Software Testing",
+        "icon": "MdBugReport",
+        "color": "#ff4d4f"
+    },
+    {
+        "name": "Test Case Design",
+        "icon": "FaClipboardCheck",
+        "color": "#17a2b8"
+    }
+    ]

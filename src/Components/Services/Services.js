@@ -7,8 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { FaAws } from "react-icons/fa";
 import { TbSettingsSearch } from "react-icons/tb";
-import { FaVialVirus } from "react-icons/fa6";
-import { FaBug } from "react-icons/fa";
+import { FaVialVirus } from "react-icons/fa6"
 import { FaClipboardCheck } from "react-icons/fa";
 import { SiSelenium } from "react-icons/si";
 import { MdBugReport } from "react-icons/md";
@@ -22,6 +21,7 @@ import {
   FaDatabase,
   FaJava,
   FaLinux ,
+  FaBug,
 } from "react-icons/fa";
 import { SiExpress ,SiAndroidstudio  } from "react-icons/si";
 import { BiLogoMongodb } from "react-icons/bi";
@@ -63,7 +63,12 @@ export default function Services() {
   FaGithub :FaGithub ,
   SiAndroidstudio :SiAndroidstudio,
   FaLinux:FaLinux,
- FaAws :FaAws 
+ FaAws :FaAws, 
+ FaBug:FaBug,
+ FaClipboardCheck:FaClipboardCheck,
+ SiSelenium:SiSelenium,
+ MdBugReport:MdBugReport,
+ FaVialVirus:FaVialVirus
     };
   return (
     <section className='Services-section' id='services'>

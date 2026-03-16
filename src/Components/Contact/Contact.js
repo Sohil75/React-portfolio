@@ -29,7 +29,7 @@ export default function Contact() {
                     <FaMapMarkerAlt/>
                 </span>
                 <div className="contact-text">
-                    <h3>Ballari, Karnataka</h3>
+                    <h3>Bangalore, Karnataka</h3>
                     <p>India</p>
                 </div>
                </div>
