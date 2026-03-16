@@ -6,6 +6,7 @@ import { BsAndroid2 } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { FaAws } from "react-icons/fa";
+import { TbSettingsSearch } from "react-icons/tb";
 import {
     FaHtml5,
     FaCss3Alt,
@@ -83,12 +84,12 @@ export default function Services() {
                 </p>
             </div>
             <div>
-            <BsAndroid2 className='icons'/>
-                <h2>AndroidApp Development</h2>
+                <TbSettingsSearch className='icons'/>
+                <h2>Software Testing & QA</h2>
                 <p>
-                Building intuitive, high-performance Android applications using Java and Android Studio, ensuring a smooth and dynamic user experience.
-<br />Specializing in designing responsive UIs and integrating APIs for seamless functionality.
-<br />Experienced in handling data persistence, implementing Firebase services, and managing user authentication effectively.
+                Ensuring software quality through comprehensive manual testing, functional testing, and regression testing to identify bugs and improve application reliability.
+                <br />Experienced in designing and executing detailed test cases, reporting defects, and validating application functionality across different environments.
+                <br />Familiar with STLC processes, API testing, database validation using SQL, and automation basics using Selenium to ensure robust and high-quality software delivery.
                 </p>
             </div>
             <div>
