@@ -7,6 +7,9 @@ import { FaGithub } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import { FaAws } from "react-icons/fa";
 import { TbSettingsSearch } from "react-icons/tb";
+import { FaBug, FaVial, FaClipboardCheck } from "react-icons/fa";
+import { SiSelenium } from "react-icons/si";
+import { MdBugReport } from "react-icons/md";
 import {
     FaHtml5,
     FaCss3Alt,
